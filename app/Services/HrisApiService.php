@@ -12,8 +12,8 @@ class HrisApiService
 
     public function __construct()
     {
-        $this->baseUrl = rtrim(config('services.hris.url'), '/');
-        $this->key     = config('services.hris.key');
+        $this->baseUrl = rtrim(config('services.hris.url') ?? '', '/');
+        $this->key     = config('services.hris.key') ?? '';
     }
 
     /**
