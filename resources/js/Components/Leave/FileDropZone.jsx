@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { Label }    from "@/components/ui/label";
+import { Label }    from "@/Components/ui/label";
 import { Paperclip, FileText, X } from "lucide-react";
 import { formatFileSize } from "@/lib/leaveUtils";
 

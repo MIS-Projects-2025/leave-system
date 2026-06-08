@@ -1,15 +1,15 @@
 import { useMemo } from "react";
 import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout";
 import { Head, usePage } from "@inertiajs/react";
-import { Badge }     from "@/components/ui/badge";
-import { Button }    from "@/components/ui/button";
-import { Label }     from "@/components/ui/label";
-import { Textarea }  from "@/components/ui/textarea";
-import { Separator } from "@/components/ui/separator";
+import { Badge }     from "@/Components/ui/badge";
+import { Button }    from "@/Components/ui/button";
+import { Label }     from "@/Components/ui/label";
+import { Textarea }  from "@/Components/ui/textarea";
+import { Separator } from "@/Components/ui/separator";
 import {
     Select, SelectContent, SelectItem,
     SelectTrigger, SelectValue,
-} from "@/components/ui/select";
+} from "@/Components/ui/select";
 import { DatePicker } from "@/Components/ui/date-picker";
 import {
     AlertTriangle, CalendarDays, CheckCircle2,

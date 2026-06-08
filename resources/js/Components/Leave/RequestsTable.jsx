@@ -1,5 +1,5 @@
 import { CheckCircle2, XCircle, Clock, ChevronRight } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
+import { Badge } from "@/Components/ui/badge";
 import { fmtDate, fmtMins, STATUS_CONFIG } from "@/lib/leaveRequestUtils";
 
 // ── Status badge ──────────────────────────────────────────────────────────────
